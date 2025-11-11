@@ -1,19 +1,30 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-# Python
+# Virtual environments
 .venv/
 venv/
+ENV/
+env/
+# Python
 __pycache__/
-*.pyc
+*.pyc 
+*.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
 dist/
 build/
 *.egg-info/
-
-# Data & mallit (jos ei tarvitse gitiin)
+# IDE & tools
+.idea/
+.vscode/
+.DS_Store
+# Data & models & output (those that are not needed)
 data/
 datasets/
 models/
 checkpoints/
+models/
+*.zip
+*.nii
+*.xlsx
