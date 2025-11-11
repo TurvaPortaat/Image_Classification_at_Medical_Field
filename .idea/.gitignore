@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Data & mallit (jos ei tarvitse gitiin)
+data/
+datasets/
+models/
+checkpoints/
